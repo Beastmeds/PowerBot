@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt — PowerBot</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html"><img src="assets/logo.svg" alt="PowerBot Logo" />PowerBot</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Menü öffnen">☰</button>
+      <nav id="primaryNav" class="primary-nav" role="navigation" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Premium</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gruppen.html">Gruppen</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="dsgvo.html?acceptCookies=1">DSGVO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section hero contact">
+      <div class="container">
+        <div class="hero inner">
+          <div class="left">
+            <h1>Kontakt</h1>
+            <p>Schreib uns eine Nachricht oder sende eine Anfrage — wir melden uns schnellstmöglich zurück.</p>
+          </div>
+          <div class="right">
+            <img src="assets/logo.svg" alt="Kontakt PowerBot" style="width:120px; max-width:40%;" />
+          </div>
+        </div>
+        <form id="contactForm" action="" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Dein Name" required />
+
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" placeholder="name@beispiel.de" required />
+
+          <label for="message">Nachricht</label>
+          <textarea id="message" name="message" required placeholder="Worum geht's?"></textarea>
+
+          <button class="btn primary" type="submit">Nachricht senden</button>
+        </form>
+        <p>Oder schreibe uns direkt via WhatsApp: <a href="https://wa.me/491234567890">+49 123 4567890</a></p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> PowerBot — Alle Rechte vorbehalten.</small>
+      <nav class="footer-links">
+        <a href="dsgvo.html?acceptCookies=1">DSGVO</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <div id="cookieBanner" class="cookie-banner" role="dialog" aria-live="polite">
+    <div class="container">
+      <p>Wir verwenden Cookies für grundlegende Funktionen. Weitere Informationen in unserer <a href="dsgvo.html?acceptCookies=1">DSGVO-Erklärung</a>.</p>
+      <button id="acceptCookies" class="btn" data-accept-cookies aria-label="Cookies akzeptieren">OK</button>
+    </div>
+  </div>
+</body>
+</html>
