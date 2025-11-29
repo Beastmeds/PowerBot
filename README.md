@@ -60,6 +60,9 @@ Die Datenschutztexte sind allgemeine Vorlagen. Bitte lass sie von einer zuständ
 
 Das Zahlungssystem ist in Bearbeitung; derzeit ist die Bezahlung über die Seite deaktiviert. Bitte kontaktiere uns per `Kontakt` oder schreibe uns via WhatsApp, um ein individuelles Angebot zu erhalten.
 
+## Befehle
+Eine Übersicht über alle Bot-Befehle findest du jetzt im Ordner `commands` (Seite: `/commands/index.html`). Die Seiten erklären Verwendung, Beispiele und die nötigen Rechte.
+
 ## Design & Branding
 - Die Seite hat ein überarbeitetes hell/dunkles Theme, modernere Typografie, CTA-Buttons und Feature-Card-Layouts.
 - Du kannst Farben in `css/style.css` unter den CSS-Variablen (`--accent`, `--muted`) anpassen.
