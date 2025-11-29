@@ -94,6 +94,10 @@ html{scroll-behavior:smooth}
 .feature-card:hover{transform:translateY(-6px); box-shadow:var(--shadow-strong)}
 .feature-card .icon{display:inline-flex; width:40px; height:40px; align-items:center; justify-content:center; border-radius:8px; background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); margin-bottom:.65rem}
 .feature-card .icon svg{width:20px; height:20px; stroke:var(--accent);}
+.command-list{display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem; margin-top:1rem}
+.cmd-card{padding:1rem; border-radius:12px; background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); box-shadow:var(--shadow-soft)}
+.cmd-card h3 a{color:var(--accent); text-decoration:none}
+.cmd-card p{color:var(--muted); margin:0}
 .contact form{display:grid; gap:.5rem; max-width:640px}
  .contact form label{font-weight:600}
  .contact form textarea{min-height:140px}
